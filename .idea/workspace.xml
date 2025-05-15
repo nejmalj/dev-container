@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -91,4 +92,10 @@
     <MESSAGE value="Front only version" />
     <option name="LAST_COMMIT_MESSAGE" value="Front only version" />
   </component>
+=======
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="PropertiesComponent">{}</component>
+>>>>>>> a704529 (Back only)
 </project>
