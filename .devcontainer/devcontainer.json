@@ -1,0 +1,26 @@
+{
+  "name": "Symfony + VueJS",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    }
+  },
+  "postCreateCommand": "composer install && npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bmewburn.vscode-intelephense-client",  // PHP
+        "esbenp.prettier-vscode",             
+        "xdebug.php-debug",                    
+        "vue.volar"                            
+      ],
+      "settings": {
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "remoteUser": "vscode"
+}
